@@ -1,0 +1,29 @@
+TCP Transport Control Protocol:
+	build on top of IP
+	assumes IP might lose data
+	-stores and retransmits data if it seems to be lost
+	handles "flow control" using a transmit window
+	provides a reliable pipe
+Socket:
+	an endpoint of a process communication flow across an IP based computer network.
+	basically a way to look at connection to another process and get data back.
+	starting a socket is like starting a phone call
+
+Port Numbers:
+	allows multiple networked app to coexist on the same server
+	app specific or process specific communications endpoint
+	sorta like telephone extension numbers 
+
+HTTP HyperText Transport Protocol:
+	dominant app layer protocol on the internet
+	basic concept is make a connection, request a document, retrieve the doc, and close the connection
+	simple
+
+URL Uniform Resource Locator
+
+Telnet was original a command used to log into other computers, but because it's unencrypted it is generally not used
+
+telnet www.randomwebsite.com 80
+GET https://www.randomwebsite.com/page1.htm HTTP/1.0
+ 
+
